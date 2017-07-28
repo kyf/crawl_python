@@ -1,0 +1,14 @@
+simple crawl
+
+
+Usage:
+    main.py [options]
+
+    Options:
+       -H, --host              请求访问的主地址url，如http://www.baidu.com
+       -r, --recursive=0       是否访问下一级，默认为0(不访问)，否则设置为1
+       -i, --interval          请求的间隔区间，最小秒数和最大秒数, 默认为5,10.  如3,5.  (注意是英文逗号分割)
+       -t, --time              请求时段，如果不设定，默认是所有时段.如1,5,9,12  
+       -h, --help              打印帮助文档
+       -v, --version           查看当前版本
+
